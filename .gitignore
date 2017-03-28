@@ -1,3 +1,4 @@
+# Java class files
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -10,3 +11,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# log and temporary files
+*.log
+tmp_data/
+Temp*
+temp*
+generated/
+lib/
+log4j.properties
+
+# eclipse settings
+.classpath
+.project
+.settings/
+/bin/
+/target/
